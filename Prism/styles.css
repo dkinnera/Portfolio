@@ -1,0 +1,184 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    width: 100%;
+    /* background-color: rgba(97, 65, 128, 0.667); */
+    background-image: linear-gradient(to right, rgb(97, 65, 128) , rgba(128, 65, 141, 0.836));
+}
+
+/*header*/
+.header .container .row{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.row h1{
+    color: white;
+}
+
+.header .container .row p{
+    color: #dfdfdf;
+    /* padding: 1% 5%; */
+}
+
+.left{
+    border-right: 1px solid #dfdfdf;
+}
+
+.right{
+    padding-left: 5%;
+}
+.custom-btn{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.green{
+    background-color: rgb(15, 194, 149);
+    padding: 1% 5%;
+}
+
+/*Banner*/
+.banner .container .row{
+    margin: 5% 0;
+    color: rgb(46, 46, 46);
+}
+
+.banner .container .row p{
+    color: grey;
+    padding: 5% 0;
+    padding-right: 3%;
+    line-height: 25px;
+    
+}
+
+.white{
+    color: rgb(46, 46, 46);
+    background: none;
+    border: 1px solid grey;
+}
+
+ul li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 40px;
+    color: grey;
+}
+
+.fa{
+    margin-right: 15px;
+    color: rgb(15, 194, 149)
+}
+
+/*third*/
+
+.third{
+    background-color: #f5eeeee1;
+    width: 100%;
+    padding: 5% 0;
+}
+
+
+.third .container .row{
+    background-color: white;
+    margin: 5% 0;
+}
+
+.third .container .row img{
+    width: 100%;    
+}
+
+.content{
+    padding: 5% 2%;
+}
+
+.third .container .row p{
+    color: grey;
+    font-weight: light;
+}
+
+.third .container .main-btn{
+    background: none;
+    width: 200px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.inside-btn{
+    background: none;
+    border: 1px solid grey;
+    color: grey;
+}
+
+/*FORM*/
+
+.custom-fluid{
+    padding: 5% 0;
+    width: 100%;
+}
+
+.formleft{
+    padding-right: 5%;
+}
+
+.form-row p{
+    color: grey;
+    padding: 5% 0;
+}
+
+.text{
+    width: 45%;
+}
+.fleft{
+    float: left;
+}
+
+.fright{
+    float: right;
+}
+
+.sm{
+    background: none;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.addr{
+    padding-left: 1%;
+}
+
+footer{
+    width: 100%;
+    background-color: #f5eeeee1;
+    padding: 25% auto;
+    color: grey;
+}
+
+@media(max-width:991px){
+    
+    *{
+        text-align: center;
+    }
+
+    .header p{
+        text-align: center;
+    }
+
+    .left{
+        border: none;
+        margin-bottom: 7%;
+    }
+
+    .right{
+        padding-left: 0;
+    }
+
+    .green{
+        width: 180px;
+    }
+}

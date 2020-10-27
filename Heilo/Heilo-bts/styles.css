@@ -1,0 +1,259 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #dfdfdf;   
+}
+
+/*Navigation*/
+ 
+ #my-navigation{
+    background: none; 
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+ }
+.navbar-toggle{
+    display: block;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+
+#my-navigation .navbar-header{
+    float: none;
+}
+
+#my-navigation .navbar-right{
+    float: left !important;
+}
+
+#my-navigation .icon-bar-left{
+    float: left;
+    
+}
+
+#my-navigation .icon-bar-left .icon-bar{
+    background-color: #fff;
+}
+
+#my-navigation .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#my-navigation .navbar-brand, #my-navigation ul li a{
+    color: #fff;
+}
+
+/*Carousel*/
+
+.custom-container{
+    padding: 0;
+    color: #fff;
+}
+
+.carousel .item{
+    background-image: url('../images/slide01.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel .item-2{
+    background-image: url('../images/slide02.jpg');
+}
+
+.carousel .item-3{
+    background-image: url('../images/slide03.jpg');
+}
+
+.carousel .item-4{
+    background-image: url('../images/slide04.jpg');
+}
+.carousel .item-5{
+    background-image: url('../images/slide05.jpg');
+}
+
+/*Banner-text*/
+
+.custom-container .banner-text{
+    text-align: center;
+    color: #fff;
+    width:30%;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    z-index: 20;
+}
+
+.banner-text hr{
+    width: 50%;
+}
+
+.banner-text p{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.banner-text h1{
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*two-section*/
+
+.two-section{
+    /* margin-top: 50px; */
+    padding: 70px 0;
+
+}
+
+.two-section .left, .two-section .right{
+    background-color: #fff;
+    text-align: center;
+    width: 95%;
+}
+
+.two-section .right{
+    margin-left: 5%;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section h6{
+    letter-spacing: 2px;
+    color:grey;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: gray;
+    height: 0.5px;
+}
+
+.two-section h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.two-section p{
+    text-align: left;
+    padding: 25px 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 2px solid #dfdfdf;
+}
+
+/* third */
+
+.third {
+    text-align: center;
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #dfdfdf;
+    overflow: auto;
+    padding: 15px;
+}
+
+.third h6{
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.third hr{
+    width: 40%;
+}
+
+.third h5{
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*fourth*/
+
+.fourth{
+    overflow: auto;
+}
+
+.fourth h6{
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.fourth hr{
+    width: 40%;
+}
+
+.fourth h5{
+    font-size: 30px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.fourth .four-images img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;       
+}
+
+.fourth .four-images .left{
+    margin-left: 5%;
+}
+
+.footer{
+    background-color: black;
+    color: gray;
+    padding: 25px;
+}
+
+.footer .fa{
+    color: gray;
+    margin-right: 8px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:800px){
+
+    .header .banner h1{
+        font-size: 70px;
+    }
+
+    .fourth .four-images img{
+        width: 100%;
+        clear: both;        
+    }
+
+    .fourth .four-images .left{
+        margin-left: 0;
+    }
+}

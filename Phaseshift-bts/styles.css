@@ -1,0 +1,177 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.pink-btn{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    background-color: rgb(199, 65, 132);
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 35px;
+}
+
+/*Navigation*/
+
+#navigate{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    margin-left: 0;
+}
+
+/*Second*/
+
+.custom-fluid{
+    background-image: url('./images/bg.jpg');
+    background-position: top top;
+    background-size: auto;
+    background-repeat: repeat-y;
+    color: #fff;
+    padding: 70px 0;
+    width: 100%;
+}
+
+.custom-fluid .header-p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    margin: 0 15%;
+}
+
+.custom-fluid p .underline{
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+.custom-fluid button{
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+/* .added-bg{
+    background-color: tomato; 
+} */
+
+
+.box{
+    background-color: #fafafa;
+    /* border: 1px solid salmon; */
+    /* width: 90%; */
+    /* margin:  */
+    margin-bottom: 10%;
+    color: #414141;
+    padding:0;
+}
+
+.box p{
+    color: grey;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-size: 14px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box button{
+    margin-bottom:30px;
+}
+
+/*Element*/
+
+.element{
+    margin-bottom: 25px;
+}
+
+.element .fa{
+    /* display: inline-block; */
+    /* margin-right: 10px;  */
+    position:absolute;
+    z-index: 2;
+    margin: 25px auto;
+    font-size: 25px;
+}
+
+.element .align-right{
+    display: inline-block;
+    /* float: left; */
+    margin-left: 55px;
+    padding-right: 5%;
+}
+
+.element .align-right{
+    font-weight: lighter;
+}
+
+/*Third section*/
+
+.third-section{
+    background-color: rgb(199, 65, 132);
+    color: #fff;
+    padding-top: 2%;
+}
+
+.third-section p{
+    margin-bottom: 4%;
+}
+
+
+.custom-form{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.third-section button{
+    margin-bottom: 20%;
+    border: 0.5px solid white;
+    margin-bottom: 3%;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    padding: 2%;
+    color: grey;
+}
+
+footer span{
+    margin-left: 8px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+@media (max-width: 772px){
+    
+    .custom-fluid .header-p{
+        font-size: 16px;
+        margin: 0 5%;
+    }
+
+    .element .fa{
+        font-size: 25px;
+    }
+    .element .align-right h3{
+        font-size: 24px;
+    }
+
+    .element .align-right p{
+        font-size: 12px;
+    }
+    
+    .third-section h2{
+        font-size: 24px;
+    }
+
+    .third-section P{
+        font-size: 11px;
+    }
+
+}

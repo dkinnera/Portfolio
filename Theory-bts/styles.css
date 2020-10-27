@@ -1,0 +1,189 @@
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: 400px;
+    background: url('./img/dd.jpg');
+    color: #fff;
+    /* text-align: center; */
+}
+
+#mynav{
+    background: none;
+}
+
+.navbar{
+    position: relative;
+    top: 30px;
+    border: none;
+}
+.navbar-header .navbar-brand {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.navbar-header .navbar-brand:hover{
+    color: #fafafa;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    color: #fafafa;
+
+}
+
+.banner{
+    position: relative;
+    top: 60px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+.banner p{
+    top: 10px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+}
+
+/* Three section starts */
+
+.main{
+    padding: 0px 30px;
+    /* background-color: tomato; */
+}
+
+.main h3{
+    font-weight: 100;
+    font-size: 25px;
+    color: #5385c1;
+    line-height: 35px;
+}
+
+.main p{
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.mybutton{
+    width: 100px;
+    margin-top: 25px;
+    height: 40px;
+    color: #fff;
+    background-color: #5385c1;
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.add-border{
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+
+}
+
+.custom-row{
+    padding: 50px 0;
+}
+
+/*team starts*/
+.team{
+    background-color: #5385c1;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.team .person{
+    border: 1px solid #dfdfdf;
+    padding: 30px;
+    margin-top: 65px;
+}
+
+/*two-section*/
+
+.two-section h1{
+    color: #5385c1;
+    font-weight: 100;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.two-section p{
+    font-size: 16px;
+
+    color: grey;
+    line-height: 30px;
+    margin-top: 12px;
+}
+
+.section-1{
+    padding-right: 50px;
+    margin-top: 70px;
+}
+
+.section-2{
+    padding-right: 50px;
+    margin-top: 70px;
+}
+
+.section-1 img, .section-2 img{
+    width: 100%;
+}
+
+.section-1 h2, .section-2 h2{
+    color: #5385c1;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 12px;
+    padding: 35px 0;
+}
+
+/*footer*/
+
+.footer{
+    margin-top: 100px;
+    border-top: 1px solid #dadada;
+    padding-top: 50px;
+}
+
+.footer p{
+    font-size: 14px;
+}
+
+.footer span{
+    padding: 10px;
+    font-size: 18px;
+    color: #5385c1;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width:767px){
+    .banner h1{
+        font-size: 45px;
+    }
+
+    .add-border{
+        border: none;
+    }
+
+    .two-section h1{
+        font-size: 40px;
+    }
+}
